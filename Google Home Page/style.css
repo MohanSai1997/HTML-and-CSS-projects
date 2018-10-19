@@ -1,0 +1,150 @@
+body
+{
+    padding: 0%;
+    margin: 0%;
+    background-color: white;
+    width: 100%;
+}
+
+/* navigation  */
+nav
+{
+    width: 100%;
+}
+
+.gmail, .images, .dots
+{
+    padding: 0px 10px 0px 10px;
+}
+
+
+.navBox
+{
+    float: right;
+    padding: 12px 12px 0px 0px;
+}
+
+.images
+{
+    font-size: 13px;
+    margin: 11px 0px 0px 0px;
+}
+
+.gmail
+{
+    font-size: 13px;
+    margin: 11px 0px 0px 0px;
+}
+
+.dots
+{
+    float: left ;
+    padding: 11px 10px 0px 10px;
+}
+
+.profile
+{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #2e9cca;
+    margin: 5px;
+    float: left;
+}
+
+.notificationsSVG
+{
+    padding: 10px 12px 0px 10px
+}
+
+/* Google logo  */
+.centerContent
+{
+    text-align: center;
+}
+
+.GoogleLogoSvg
+{
+    margin: 160px 0px 15px 250px;
+}
+
+/* search index */
+.container1
+{
+    height: 42px;
+    width: 560px;
+    margin: auto;
+    border-radius: 30px;
+    background-color: #F4F6F6 ;
+    margin-bottom: 40px;
+}
+
+.container1:hover
+{
+    background-color: #EAEDED  ;
+}
+
+.searchGoogle
+{
+    float: left;
+    margin: 0px 0px 0px 0px;
+}
+
+.searchGoogle
+{
+    font-size: 15px;
+    color: #5D6D7E;
+}
+
+.searchBox
+{
+    padding: 10px 15px 0px 20px ;
+}
+
+.micLogoContainer
+{
+    float: right;
+}
+
+/* boxes */
+
+.box1
+{
+    width: 112px;
+    height: 112px;
+    background-color: white;
+    border-radius: 5px;
+    float: right;
+}
+
+.box1:hover
+{
+    background-color: #F2F3F4 ;
+}
+
+.container2
+{
+    text-align: center;
+}
+
+.boxes
+{
+    display: inline-block;
+}
+
+.topBox
+{
+    float: left;
+    padding: 0px 0px 15px 0px;
+}
+
+/* Inner decoration for Boxes */
+.circle
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #EAEDED  ;
+    margin: 20px auto auto auto;
+}
+

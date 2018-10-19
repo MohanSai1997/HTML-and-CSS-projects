@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Google Home Page</title>
+</head>
+<body>
+    <!-- navigation -->
+    <header>
+        <nav >
+            <div class="navBox">
+                <div style="float: left"> <p class="gmail">Gmail</p>  </div>
+                <div style="float: left"> <p class="images">Images</p>  </div>
+                <div class="dots">
+                    <svg class="dotsSVG" width="18" height="18" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="8" height="8" fill="#060606"/>
+                        <rect x="11" width="8" height="8" fill="#060606"/>
+                        <rect x="22" width="8" height="8" fill="#060606"/>
+                        <rect y="11" width="8" height="8" fill="#060606"/>
+                        <rect x="11" y="11" width="8" height="8" fill="#060606"/>
+                        <rect x="22" y="11" width="8" height="8" fill="#060606"/>
+                        <rect y="22" width="8" height="8" fill="#060606"/>
+                        <rect x="11" y="22" width="8" height="8" fill="#060606"/>
+                        <rect x="22" y="22" width="8" height="8" fill="#060606"/>
+                    </svg>
+                </div>
+
+                <div class="notifications" style="float: left">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 300 300" style="enable-background:new 0 0 300 300;" xml:space="preserve" width="20px" height="20px" class="notificationsSVG">                
+                        <g>
+                            <path d="M149.996,0C67.157,0,0.001,67.161,0.001,149.997S67.157,300,149.996,300s150.003-67.163,150.003-150.003    S232.835,0,149.996,0z M149.999,232.951c-10.766,0-19.499-8.725-19.499-19.499h38.995    C169.497,224.226,160.765,232.951,149.999,232.951z M215.889,193.9h-0.005v-0.001c0,7.21-5.843,7.685-13.048,7.685H97.16    c-7.208,0-13.046-0.475-13.046-7.685v-1.242c0-5.185,3.045-9.625,7.42-11.731l4.142-35.753c0-26.174,18.51-48.02,43.152-53.174    v-13.88c0-6.17,5.003-11.173,11.176-11.173c6.17,0,11.173,5.003,11.173,11.173V92c24.642,5.153,43.152,26.997,43.152,53.174    l4.142,35.758c4.375,2.109,7.418,6.541,7.418,11.726V193.9z" data-original="#000000" class="active-path" data-old_color="#4C3631" fill="#4B3530"/>
+                        </g>
+                    </svg>
+                </div>
+
+                <div class="profile" style="float: left"></div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Google Logo -->
+    <div class="centerContent" >
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 272 92" class="GoogleLogoSvg" width="272" height="92"><path fill="#EA4335" d="M115.75 47.18c0 12.77-9.99 22.18-22.25 22.18s-22.25-9.41-22.25-22.18C71.25 34.32 81.24 25 93.5 25s22.25 9.32 22.25 22.18zm-9.74 0c0-7.98-5.79-13.44-12.51-13.44S80.99 39.2 80.99 47.18c0 7.9 5.79 13.44 12.51 13.44s12.51-5.55 12.51-13.44z"/><path fill="#FBBC05" d="M163.75 47.18c0 12.77-9.99 22.18-22.25 22.18s-22.25-9.41-22.25-22.18c0-12.85 9.99-22.18 22.25-22.18s22.25 9.32 22.25 22.18zm-9.74 0c0-7.98-5.79-13.44-12.51-13.44s-12.51 5.46-12.51 13.44c0 7.9 5.79 13.44 12.51 13.44s12.51-5.55 12.51-13.44z"/><path fill="#4285F4" d="M209.75 26.34v39.82c0 16.38-9.66 23.07-21.08 23.07-10.75 0-17.22-7.19-19.66-13.07l8.48-3.53c1.51 3.61 5.21 7.87 11.17 7.87 7.31 0 11.84-4.51 11.84-13v-3.19h-.34c-2.18 2.69-6.38 5.04-11.68 5.04-11.09 0-21.25-9.66-21.25-22.09 0-12.52 10.16-22.26 21.25-22.26 5.29 0 9.49 2.35 11.68 4.96h.34v-3.61h9.25zm-8.56 20.92c0-7.81-5.21-13.52-11.84-13.52-6.72 0-12.35 5.71-12.35 13.52 0 7.73 5.63 13.36 12.35 13.36 6.63 0 11.84-5.63 11.84-13.36z"/><path fill="#34A853" d="M225 3v65h-9.5V3h9.5z"/><path fill="#EA4335" d="M262.02 54.48l7.56 5.04c-2.44 3.61-8.32 9.83-18.48 9.83-12.6 0-22.01-9.74-22.01-22.18 0-13.19 9.49-22.18 20.92-22.18 11.51 0 17.14 9.16 18.98 14.11l1.01 2.52-29.65 12.28c2.27 4.45 5.8 6.72 10.75 6.72 4.96 0 8.4-2.44 10.92-6.14zm-23.27-7.98l19.82-8.23c-1.09-2.77-4.37-4.7-8.23-4.7-4.95 0-11.84 4.37-11.59 12.93z"/><path fill="#4285F4" d="M35.29 41.41V32H67c.31 1.64.47 3.58.47 5.68 0 7.06-1.93 15.79-8.15 22.01-6.05 6.3-13.78 9.66-24.02 9.66C16.32 69.35.36 53.89.36 34.91.36 15.93 16.32.47 35.3.47c10.5 0 17.98 4.12 23.6 9.49l-6.64 6.64c-4.03-3.78-9.49-6.72-16.97-6.72-13.86 0-24.7 11.17-24.7 25.03 0 13.86 10.84 25.03 24.7 25.03 8.99 0 14.11-3.61 17.39-6.89 2.66-2.66 4.41-6.46 5.1-11.65l-22.49.01z"/></svg>
+
+    <!-- Search Box -->
+    <div class="container1">
+        <div class="searchBox">
+            <p class="searchGoogle">Search Google or type URL</p>
+            <div class="micLogoContainer">
+                            <svg
+                                xmlns:dc="http://purl.org/dc/elements/1.1/"
+                                xmlns:cc="http://creativecommons.org/ns#"
+                                xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                                xmlns:svg="http://www.w3.org/2000/svg"
+                                xmlns="http://www.w3.org/2000/svg"
+                                version="1.1"
+                                class="micLogo"
+                                viewBox="0 0 300 429.48716"
+                                height="20px"
+                                width="20px">
+                                <defs
+                                    id="defs72701">
+                                    <clipPath
+                                        clipPathUnits="userSpaceOnUse"
+                                        id="clipPath17476">
+                                        <path
+                                            d="m 640.547,230.558 11.505,0 0,16.521 -11.505,0 0,-16.521 z"
+                                            id="path17478" />
+                                    </clipPath>
+                                </defs>
+                                <metadata
+                                    id="metadata72704">
+                                    <rdf:RDF>
+                                        <cc:Work
+                                            rdf:about="">
+                                            <dc:format>image/svg+xml</dc:format>
+                                            <dc:type
+                                                rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+                                            <dc:title></dc:title>
+                                        </cc:Work>
+                                    </rdf:RDF>
+                                </metadata>
+                                <g
+                                    transform="translate(-325.45196,-141.38025)"
+                                    id="layer1">
+                                    <g
+                                        id="g17472"
+                                        transform="matrix(25.816883,0,0,-25.816883,-16209.975,6521.6873)">
+                                        <g
+                                            id="g17474"
+                                            clip-path="url(#clipPath17476)">
+                                            <g
+                                                id="g17480"
+                                                transform="translate(646.3034,236.3789)">
+                                                <path
+                                                    d="M 0,0 C 1.364,0 2.461,1.106 2.461,2.469 L 2.469,8.231 C 2.469,9.596 1.364,10.7 0,10.7 -1.363,10.7 -2.469,9.596 -2.469,8.231 l 0,-5.762 C -2.469,1.106 -1.363,0 0,0"
+                                                    style="fill:#4285f4;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                                                    id="path17482" />
+                                            </g>
+                                            <g
+                                                id="g17484"
+                                                transform="translate(645.4803,233.1492)">
+                                                <path
+                                                    d="m 0,0 0,0 0,-2.59 1.646,0 0,2.562 C 1.378,-0.066 1.107,-0.064 0.828,-0.064 0.547,-0.064 0.271,-0.039 0,0"
+                                                    style="fill:#34a853;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                                                    id="path17486" />
+                                            </g>
+                                            <g
+                                                id="g17488"
+                                                transform="translate(643.3809,235.9115)">
+                                                <path
+                                                    d="m 0,0 c -0.735,0.742 -1.191,1.652 -1.191,2.878 l -1.643,0 c 0,-1.646 0.644,-2.999 1.685,-4.041 l 0.012,0.011 c -0.004,0.004 -0.008,0.007 -0.012,0.011 L 0,0 Z"
+                                                    style="fill:#fbbc05;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                                                    id="path17490" />
+                                            </g>
+                                            <g
+                                                id="g17492"
+                                                transform="translate(650.4081,238.79)">
+                                                <path
+                                                    d="m 0,0 c 0,-2.058 -1.829,-4.086 -4.102,-4.086 -1.137,0 -2.166,0.476 -2.911,1.222 L -7.027,-2.878 -8.176,-4.02 c 0.004,-0.003 0.008,-0.007 0.012,-0.01 0.857,-0.854 1.982,-1.429 3.236,-1.611 0.272,-0.039 0.547,-0.064 0.828,-0.064 0.28,0 0.55,-0.002 0.818,0.036 C -0.491,-5.27 1.643,-2.881 1.643,0 L 0,0 Z"
+                                                    style="fill:#ea4335;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                                                    id="path17494" />
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </svg>
+        </div>
+        </div>
+    </div>
+
+
+    <!-- Recent Boxes -->
+    <div class="container2">
+        <div class="boxes">
+            <div class="topBox">
+                <div class="box1">
+                    <div class="circle">
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="15px" height="15px"  style= "margin: 17.5px auto auto auto" xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 24 24" class="plusLogo">
+                            <path d="m23,10h-8.5c-0.3,0-0.5-0.2-0.5-0.5v-8.5c0-0.6-0.4-1-1-1h-2c-0.6,0-1,0.4-1,1v8.5c0,0.3-0.2,0.5-0.5,0.5h-8.5c-0.6,0-1,0.4-1,1v2c0,0.6 0.4,1 1,1h8.5c0.3,0 0.5,0.2 0.5,0.5v8.5c0,0.6 0.4,1 1,1h2c0.6,0 1-0.4 1-1v-8.5c0-0.3 0.2-0.5 0.5-0.5h8.5c0.6,0 1-0.4 1-1v-2c0-0.6-0.4-1-1-1z"/>
+                        </svg>
+                    </div>
+                    <p style="font-size: 13px">Add shortcut</p>
+                </div>
+                <div class="box1">
+                        <div class="circle">
+                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="15px" height="15px"  style= "margin: 17.5px auto auto auto" xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 24 24" class="plusLogo">
+                                    <path d="m23,10h-8.5c-0.3,0-0.5-0.2-0.5-0.5v-8.5c0-0.6-0.4-1-1-1h-2c-0.6,0-1,0.4-1,1v8.5c0,0.3-0.2,0.5-0.5,0.5h-8.5c-0.6,0-1,0.4-1,1v2c0,0.6 0.4,1 1,1h8.5c0.3,0 0.5,0.2 0.5,0.5v8.5c0,0.6 0.4,1 1,1h2c0.6,0 1-0.4 1-1v-8.5c0-0.3 0.2-0.5 0.5-0.5h8.5c0.6,0 1-0.4 1-1v-2c0-0.6-0.4-1-1-1z"/>
+                                </svg>
+                        </div>
+                        <p style="font-size: 13px">Add shortcut</p>
+                </div>
+                <div class="box1">
+                        <div class="circle">
+                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="15px" height="15px"  style= "margin: 17.5px auto auto auto" xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 24 24" class="plusLogo">
+                                    <path d="m23,10h-8.5c-0.3,0-0.5-0.2-0.5-0.5v-8.5c0-0.6-0.4-1-1-1h-2c-0.6,0-1,0.4-1,1v8.5c0,0.3-0.2,0.5-0.5,0.5h-8.5c-0.6,0-1,0.4-1,1v2c0,0.6 0.4,1 1,1h8.5c0.3,0 0.5,0.2 0.5,0.5v8.5c0,0.6 0.4,1 1,1h2c0.6,0 1-0.4 1-1v-8.5c0-0.3 0.2-0.5 0.5-0.5h8.5c0.6,0 1-0.4 1-1v-2c0-0.6-0.4-1-1-1z"/>
+                                </svg>
+                            </div>
+                            <p style="font-size: 13px">Add shortcut</p>
+                </div>
+
+                <div class="box1">
+                        <div class="circle">
+                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="15px" height="15px"  style= "margin: 17.5px auto auto auto" xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 24 24" class="plusLogo">
+                                    <path d="m23,10h-8.5c-0.3,0-0.5-0.2-0.5-0.5v-8.5c0-0.6-0.4-1-1-1h-2c-0.6,0-1,0.4-1,1v8.5c0,0.3-0.2,0.5-0.5,0.5h-8.5c-0.6,0-1,0.4-1,1v2c0,0.6 0.4,1 1,1h8.5c0.3,0 0.5,0.2 0.5,0.5v8.5c0,0.6 0.4,1 1,1h2c0.6,0 1-0.4 1-1v-8.5c0-0.3 0.2-0.5 0.5-0.5h8.5c0.6,0 1-0.4 1-1v-2c0-0.6-0.4-1-1-1z"/>
+                                </svg>
+                        </div>
+                        <p style="font-size: 13px">Add shortcut</p>
+                </div>
+
+                <div class="box1">
+                        <div class="circle">
+                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="15px" height="15px"  style= "margin: 17.5px auto auto auto" xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 24 24" class="plusLogo">
+                                    <path d="m23,10h-8.5c-0.3,0-0.5-0.2-0.5-0.5v-8.5c0-0.6-0.4-1-1-1h-2c-0.6,0-1,0.4-1,1v8.5c0,0.3-0.2,0.5-0.5,0.5h-8.5c-0.6,0-1,0.4-1,1v2c0,0.6 0.4,1 1,1h8.5c0.3,0 0.5,0.2 0.5,0.5v8.5c0,0.6 0.4,1 1,1h2c0.6,0 1-0.4 1-1v-8.5c0-0.3 0.2-0.5 0.5-0.5h8.5c0.6,0 1-0.4 1-1v-2c0-0.6-0.4-1-1-1z"/>
+                                </svg>
+                        </div>
+                        <p style="font-size: 13px">Add shortcut</p>
+                    </div>
+            </div>
+            <div class="bottomBox">
+                <div class="box1">
+                        <div class="circle">
+                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="15px" height="15px"  style= "margin: 17.5px auto auto auto" xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 24 24" class="plusLogo">
+                                    <path d="m23,10h-8.5c-0.3,0-0.5-0.2-0.5-0.5v-8.5c0-0.6-0.4-1-1-1h-2c-0.6,0-1,0.4-1,1v8.5c0,0.3-0.2,0.5-0.5,0.5h-8.5c-0.6,0-1,0.4-1,1v2c0,0.6 0.4,1 1,1h8.5c0.3,0 0.5,0.2 0.5,0.5v8.5c0,0.6 0.4,1 1,1h2c0.6,0 1-0.4 1-1v-8.5c0-0.3 0.2-0.5 0.5-0.5h8.5c0.6,0 1-0.4 1-1v-2c0-0.6-0.4-1-1-1z"/>
+                                </svg>
+                        </div>
+                        <p style="font-size: 13px">Add shortcut</p>
+                </div>
+
+                <div class="box1">
+                        <div class="circle">
+                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="15px" height="15px"  style= "margin: 17.5px auto auto auto" xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 24 24" class="plusLogo">
+                                    <path d="m23,10h-8.5c-0.3,0-0.5-0.2-0.5-0.5v-8.5c0-0.6-0.4-1-1-1h-2c-0.6,0-1,0.4-1,1v8.5c0,0.3-0.2,0.5-0.5,0.5h-8.5c-0.6,0-1,0.4-1,1v2c0,0.6 0.4,1 1,1h8.5c0.3,0 0.5,0.2 0.5,0.5v8.5c0,0.6 0.4,1 1,1h2c0.6,0 1-0.4 1-1v-8.5c0-0.3 0.2-0.5 0.5-0.5h8.5c0.6,0 1-0.4 1-1v-2c0-0.6-0.4-1-1-1z"/>
+                                </svg>
+                        </div>
+                        <p style="font-size: 13px">Add shortcut</p>
+                </div>
+
+                <div class="box1">
+                        <div class="circle">
+                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="15px" height="15px"  style= "margin: 17.5px auto auto auto" xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 24 24" class="plusLogo">
+                                    <path d="m23,10h-8.5c-0.3,0-0.5-0.2-0.5-0.5v-8.5c0-0.6-0.4-1-1-1h-2c-0.6,0-1,0.4-1,1v8.5c0,0.3-0.2,0.5-0.5,0.5h-8.5c-0.6,0-1,0.4-1,1v2c0,0.6 0.4,1 1,1h8.5c0.3,0 0.5,0.2 0.5,0.5v8.5c0,0.6 0.4,1 1,1h2c0.6,0 1-0.4 1-1v-8.5c0-0.3 0.2-0.5 0.5-0.5h8.5c0.6,0 1-0.4 1-1v-2c0-0.6-0.4-1-1-1z"/>
+                                </svg>
+                        </div>
+                        <p style="font-size: 13px">Add shortcut</p>
+                </div>
+
+                <div class="box1">
+                        <div class="circle">
+                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="15px" height="15px"  style= "margin: 17.5px auto auto auto" xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 24 24" class="plusLogo">
+                                    <path d="m23,10h-8.5c-0.3,0-0.5-0.2-0.5-0.5v-8.5c0-0.6-0.4-1-1-1h-2c-0.6,0-1,0.4-1,1v8.5c0,0.3-0.2,0.5-0.5,0.5h-8.5c-0.6,0-1,0.4-1,1v2c0,0.6 0.4,1 1,1h8.5c0.3,0 0.5,0.2 0.5,0.5v8.5c0,0.6 0.4,1 1,1h2c0.6,0 1-0.4 1-1v-8.5c0-0.3 0.2-0.5 0.5-0.5h8.5c0.6,0 1-0.4 1-1v-2c0-0.6-0.4-1-1-1z"/>
+                                </svg>
+                        </div>
+                        <p style="font-size: 13px">Add shortcut</p>
+                </div>
+
+                <div class="box1">
+                        <div class="circle">
+                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="15px" height="15px"  style= "margin: 17.5px auto auto auto" xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 24 24" class="plusLogo">
+                                    <path d="m23,10h-8.5c-0.3,0-0.5-0.2-0.5-0.5v-8.5c0-0.6-0.4-1-1-1h-2c-0.6,0-1,0.4-1,1v8.5c0,0.3-0.2,0.5-0.5,0.5h-8.5c-0.6,0-1,0.4-1,1v2c0,0.6 0.4,1 1,1h8.5c0.3,0 0.5,0.2 0.5,0.5v8.5c0,0.6 0.4,1 1,1h2c0.6,0 1-0.4 1-1v-8.5c0-0.3 0.2-0.5 0.5-0.5h8.5c0.6,0 1-0.4 1-1v-2c0-0.6-0.4-1-1-1z"/>
+                                </svg>
+                        </div>
+                        <p style="font-size: 13px">Add shortcut</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>

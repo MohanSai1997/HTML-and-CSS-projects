@@ -1,0 +1,241 @@
+body
+{
+    background-color: azure;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.container
+{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* header */
+
+header
+{
+    background-color: #35424a;
+    border-bottom: #e8491d 3px solid;
+    min-height: 70px;
+}
+
+#brandName
+{
+    float: left;
+    color: aliceblue;
+}
+
+nav 
+{
+    float: right;
+    margin-top: 15px;
+    color: aliceblue;
+}
+
+header a{
+    text-decoration:none;
+    color: aliceblue;
+}
+
+header li
+{
+    display: inline;
+    /* padding: 0px 20px 0px 20px; */
+}
+
+/* showcase */
+
+.showcase
+{
+    min-height: 400px;
+    background: url('../img/showcase.jpg') no-repeat 0px -350px;
+}
+
+.showcase h1, p
+{
+    color: aliceblue;
+    text-align: center;
+}
+
+.showcase h1
+{
+    font-size: 55px;
+    margin-top: 100px;
+}
+
+.showcase p
+{
+    font-size: 20px;
+}
+
+/* newsletter */
+
+.newsletter
+{
+    background-color:#35424a; 
+}
+
+.newsletter h3
+{   
+    font-size: 20px;
+    float: left;
+    color: aliceblue;
+}
+
+.newsletter form
+{
+    float: right;
+    margin-top: 20px;
+}
+
+form input[type="email"], input[type="text"]
+{
+    padding: 4px;
+    width: 250px;
+    height: 20px;
+}
+
+form button
+{
+    padding: 0px 20px 0px 20px;
+    height: 30px;
+    background: #e8491d;
+    border: 0px;
+    color: aliceblue;
+}
+
+/* boxes */
+
+#content .box
+{
+    float: left;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+    margin: 3px;
+    border: 0.5px solid black;
+    border-radius: 15px;
+    min-width: 250px;
+}
+
+.box:hover
+{
+    box-shadow: 1px 1px 5px black;
+}
+/* box-shadow: -4px 4px 20px black; */
+
+#content
+{
+    margin-top: 20px;
+}
+
+#content img
+{
+    width: 90px;
+}
+#content p
+{
+    color: black;
+    padding: 10px;
+}
+
+
+/* footer */
+
+footer
+{
+    margin-top: 20px;
+    padding: 20px;
+    background-color:  #e8491d;
+}
+footer p
+{
+    text-align: center;
+    font-size: 20px;
+    color: black;
+}
+
+/* about us  */
+
+.asidebar
+{
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+}
+
+.maincontent
+{
+    float: left;
+    width: 65%;
+    margin-top: 10px;
+}
+
+/* services */
+.things
+{
+    float: left;
+    width: 65%;
+}
+.serviceslist
+{
+    list-style: none;
+}
+
+.serivequto
+{
+    float: right;
+    width: 30%;
+}
+
+.Quota
+{
+    padding: 4px;
+}
+
+.quotaName, .quotaEmail, .qwert label
+{
+    padding: 2px;
+}
+
+.quotaMessage
+{
+    padding: 4px;
+    width: 250px;
+    height: 20px;
+}
+
+/* Media Queries */
+
+@media (max-width : 768px)
+{
+    header nav, #brandName
+    {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    header ul
+    {
+        margin-right: 30px; 
+    }
+
+    header li
+    {
+        width: 100%;
+    }
+
+   .box
+    {
+        float: none;
+        text-align: center;
+        width: 100%;
+        margin: auto;
+    }
+}
