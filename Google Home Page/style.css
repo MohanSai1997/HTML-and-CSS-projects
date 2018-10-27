@@ -20,7 +20,7 @@ nav
 
 .navBox
 {
-    float: right;
+    float: right; /*This will send the navBox to right side */
     padding: 12px 12px 0px 0px;
 }
 
